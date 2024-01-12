@@ -1,0 +1,30 @@
+#fname, #lname {
+    color:#252525;
+}
+
+@media (min-width: 768px) {
+    #fname, #lname {
+        width:100%;
+    }
+
+  }
+
+ body{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+ } 
+  
+ .pimg{
+    min-width: 25vw;
+    min-height: 25vw;
+    max-width: 500px;
+    max-height: 500px;
+    background-color: #252525;
+    border-radius: 100%;    
+ }
+
+ .navbar{
+    background-color: #f5ba13;
+ }
+ 
