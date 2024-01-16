@@ -10,7 +10,7 @@ function Login() {
 
     const handelSubmit = async (e) => {
         e.preventDefault();
-        const url = `http://localhost:5000/api/auth/login`;
+        const url = `https://api-vidit-notebook.onrender.com/api/auth/login`;
         const response = await fetch(url, {
             method: "POST",
             headers: {

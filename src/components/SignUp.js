@@ -11,7 +11,7 @@ function SignUp() {
   const handelSubmit = async (e) => {
     e.preventDefault();
     if (credential.confirmPassword === credential.password) {
-      const url = `http://localhost:5000/api/auth/createUser`;
+      const url = `https://api-vidit-notebook.onrender.com/api/auth/createUser`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
